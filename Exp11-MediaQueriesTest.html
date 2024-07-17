@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS3 Media Query</title>
+    <style>
+        .container{
+            margin: 0 auto;
+            background: hsl(153,94%,37%);
+            box-sizing:border-box;
+        }
+    @media screen and (min-width:767px) {
+        .container{
+            width:100%;
+            background-color: aqua;
+            padding: 5px 10px;
+        }
+    }
+    @media screen and (min-width:767px) and (max-width:1024px){
+        .container{
+            width:100%;
+            background-color: brown;
+            padding: 5px 10px;
+        }
+    }
+    @media screen and (min-width:1025px) {
+        .container{
+            width:980px;
+            background-color: cornflowerblue;
+            padding: 5px 10px;
+        }
+    }
+    @media screen and (min-width:1284px){
+        .container{
+            width:1200px;
+            background-color: rgb(105, 69, 69);
+            padding: 5px 10px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <h1>Media Queries......</h1>
+    <div class="container">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam maxime doloremque consequatur quo facere natus vero quae illo culpa, magni illum recusandae eum laborum delectus dolorem praesentium perspiciatis labore. Tenetur.
+        Animi molestias eos voluptatum velit et eligendi voluptatibus itaque exercitationem veritatis odit eveniet, tempore aspernatur voluptatem incidunt rerum. Alias voluptatem quos magnam praesentium modi cum culpa velit ducimus atque aspernatur!
+        Voluptatibus, inventore. Assumenda vitae itaque eaque voluptas similique voluptates neque autem natus molestiae, repellendus quidem architecto, iste ea officia ab. Natus nihil culpa voluptatibus beatae modi nisi odit placeat repudiandae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, veniam dolorem vel sunt excepturi blanditiis rem voluptas quibusdam, autem voluptate nulla vitae officia quo corrupti recusandae ab! Sit, sed dolorem!
+    </div>
+</body>
+</html>

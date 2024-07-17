@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS3 Animation</title>
+    <style>
+        .box{
+            margin: 50px;
+            width: 200px;
+            height: 200px;
+            background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMYb-Ehj9Dyyv-lYuJR1_L9UlG6oQpf7OC6g&s)no-repeat;
+            position: relative;
+            background-size: contain;
+            animation:repeatit 10s linear 0s infinite alternate;
+        }
+        @keyframes repeatit{
+            from{left:0;}
+            to{left:50%;}
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
